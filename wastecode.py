@@ -1,3 +1,6 @@
+
+## Machine List 
+
 machine_list = [{
     'name':'Saturn',
     'number': 8,
@@ -86,6 +89,7 @@ machine_list = [{
 }]
 
 
+## wasteClass calls various functions to perform waste management ##
 
 class wasteClass():
 
@@ -142,6 +146,8 @@ class wasteClass():
 
   def calculate_waste_percentage():
 
+    
+    ## try and except for zero division ##
     try:
       for element in machine_list:
        
@@ -168,6 +174,8 @@ class wasteClass():
    
     
 
+    
+##-- Call Main --##
 if __name__ == '__main__':
   
 
